@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 <!-- I'm a <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/" target="_blank"> Statistics</a> Ph.D. candidate at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>, -->
-I'm a Ph.D. candidate in Statistics at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>,
+I'm an Undergraduate student in Computer Science at <a href="https://www.utoronto.ca/" target="_blank"> University of Toronto</a>,
 <!-- 's <a href="https://med.nyu.edu/" target="_blank"> Grossman School of Medicine</a> -->
 <!-- , specifically within the <a href="https://med.nyu.edu/research/sackler-institute-graduate-biomedical-sciences/" target="_blank"> Vilcek institute of Biomedical Sciences</a> and the Department of <a href="https://med.nyu.edu/departments-institutes/population-health/" target="_blank"> Population Health</a>. Under the mentorship of Prof.  -->
 working under the mentorship of Prof.<a href="https://scholar.google.com/citations?user=QtyFQVYAAAAJ&hl=en" target="_blank"> Thaddeus Tarpey</a>. My research involves developing statistical models that cater to high-dimensional complex data, such as functional and imaging data. This endeavor confronts two main challenges: First, how to define a metric with self-consistent property to cluster a population into subgroups, based on rich and complex tensor data for each individual. Second, how to develop a semi-supervised clustering algorithm, directed by a specific label, to accurately identify subgroups that align closely with a target subgroup of interest.
