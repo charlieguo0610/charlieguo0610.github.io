@@ -15,7 +15,7 @@ Outside of academia, I'm passionately engaged in the game of golf, since each ga
 
 ## Research Interests
 - **3D Representations:** Neural Radiance Field (NeRF), 3D Gaussian Splatting (3DGS)
-- **Applications in AIGC:** Text to 3D Generation and Editing 
+- **Applications in AIGC:** Text to 3D Generation and Editing using Diffusion Models
 
 
 
