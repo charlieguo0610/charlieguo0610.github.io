@@ -20,15 +20,15 @@ Outside of academia, I am passionate about golf, appreciating its blend of menta
 ## News
 - **[Nov. 2024]** One paper was submitted to CVPR 2025!
 - **[Nov. 2024]** I was invited to present my work on controllable human image personalization at ARIA 2024!
-- **[Sept. 2024]** I joined the Machine Learning and Computational Healthcare Lab at the Vector Institute!
+- **[Sept. 2024]** I joined the Machine Learning and Computational Healthcare Lab at the Vector Institute.
 - **[Aug. 2024]** One paper was accepted to the ECCV 2024 Workshop!
 - **[Jul. 2024]** One paper was accepted to the ECCV 2024!
-- **[May. 2024]** I returned to the DGP Lab as a student researcher!
-- **[May. 2023]** I started my research internship at the Noah's Ark Lab, Huawei Canada! 
-- **[Jan. 2023]** I joined the DGP Lab as a research assistant! 
-- **[Apr. 2022]** I started my development volunteer position at PetroChina Oilfield! 
-- **[Apr. 2021]** I started my research internship at the CV Lab, JD.com! 
-- **[Sept. 2020]** I started my undergrad at the University of Toronto! -->
+- **[May. 2024]** I returned to the DGP Lab as a student researcher.
+- **[May. 2023]** I started my research internship at the Noah's Ark Lab, Huawei Canada.
+- **[Jan. 2023]** I joined the DGP Lab as a research assistant.
+- **[Apr. 2022]** I started my development volunteer position at PetroChina Oilfield.
+- **[Apr. 2021]** I started my research internship at the CV Lab, JD.com.
+- **[Sept. 2020]** I started my undergrad at the University of Toronto. -->
 
 ## Awards
 - **[Jun. 2024]** Dean's List Scholar (2021 - 2024)
