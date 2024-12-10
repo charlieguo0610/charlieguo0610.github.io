@@ -28,7 +28,7 @@ Outside of academia, I am passionate about golf, appreciating its blend of menta
 - **[Jan. 2023]** I joined the DGP Lab as a research assistant.
 - **[Apr. 2022]** I started my development volunteer position at PetroChina Oilfield.
 - **[Apr. 2021]** I started my research internship at the CV Lab, JD.com.
-- **[Sept. 2020]** I started my undergrad at the University of Toronto. -->
+- **[Sept. 2020]** I started my undergrad at the University of Toronto.
 
 ## Awards
 - **[Jun. 2024]** Dean's List Scholar (2021 - 2024)
