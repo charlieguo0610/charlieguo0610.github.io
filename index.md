@@ -27,6 +27,7 @@ Outside of academia, I am passionate about golf, appreciating its blend of menta
 - **[May. 2023]** I started my research internship at the Noah's Ark Lab, Huawei Canada.
 - **[Jan. 2023]** I joined the DGP Lab as a research assistant.
 - **[Apr. 2022]** I started my development volunteer position at PetroChina Oilfield.
+- **[Mar. 2022]** One patent for industrial quality inspection was filed.
 - **[Apr. 2021]** I started my research internship at the CV Lab, JD.com.
 - **[Sept. 2020]** I started my undergrad at the University of Toronto.
 
