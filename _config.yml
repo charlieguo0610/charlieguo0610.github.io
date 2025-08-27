@@ -3,14 +3,14 @@ url: "zixinguo.me"
 # Basic Information
 title: Zixin Guo
 # subtitle:
-position: Fourth-year undergraduate
+position: MSR Student
 
-affiliation: University of Toronto
-subaffiliation: Department of Computer Science
-affiliation_link: https://www.utoronto.ca/
+affiliation: Carnegie Mellon University
+subaffiliation: Robotics Institute
+affiliation_link: https://www.cmu.edu/
 email: zixin.guo@mail.utoronto.ca
-address: 27 King's College Circle, Toronto, Ontario M5S 1A1 Canada
-address_link: https://maps.app.goo.gl/tWFY8BSAMS4VH7mE9
+address: 5000 Forbes Avenue, Pittsburgh, PA 15213
+address_link: https://maps.app.goo.gl/9kFGShN4Un7LQfvJ9
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -21,7 +21,7 @@ canonical: https://minimal-light-theme.yliu.me/
 # Links
 # If you don't need one of them, you may delete the corresponding line.
 # google_scholar: https://scholar.google.com/citations?user=bePCCD8AAAAJ&hl=en
-cv_link: assets/files/zixinguo_resume.pdf
+cv_link: assets/files/resume.pdf
 github_link: https://github.com/charlieguo0610
 linkedin: https://www.linkedin.com/in/zixin-guo-bb5087208/?originalSubdomain=ca
 
