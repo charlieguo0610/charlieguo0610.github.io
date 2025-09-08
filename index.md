@@ -13,9 +13,9 @@ In industry, I spent one year as a computer vision researcher at Noah's Ark Lab,
 Outside of academia, I am passionate about golf and tennis. During the winter months, I find snowboarding a refreshing and exhilarating way to unwind while navigating snowy slopes.
 
 
-## Research Interests
+<!-- ## Research Interests
 - **3D Representations:** Neural Radiance Field (NeRF), 3D Gaussian Splatting (3DGS)
-- **Applications in GenAI:** Controllable Visual Generation with Diffusion Models
+- **Applications in GenAI:** Controllable Visual Generation with Diffusion Models -->
 
 ## News
 - **[Aug. 2025]** I started my Master of Science in Robotics (MSR) at Carnegie Mellon University.
