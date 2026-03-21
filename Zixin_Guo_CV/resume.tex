@@ -1,0 +1,209 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.40in,top=0.4in,right=0.4in,bottom=0.1in]{geometry} % Document margins
+% \usepackage{endnotes}
+% \let\footnote=\endnote
+\usepackage{fontawesome}
+\usepackage{times}
+\usepackage{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% \begin{center}
+
+% \usepackage{endnotes}
+% \let\footnote=\endnote
+
+
+%%% replace here
+\newcommand{\YOUTNAME}{Zixin Guo}
+\newcommand{\PHONENUM}{647-389-6610}
+\newcommand{\EMAIL}{zixinguo@andrew.cmu.edu}
+\newcommand{\UNIVERSITY}{Carnegie Mellon University}
+
+
+
+
+
+%%% replace here
+
+
+
+% \end{center}
+\name{\YOUTNAME} % Your name 
+
+
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+% \address{\faPhone\, \PHONENUM \: \: \faEnvelope{ \EMAIL} \: \: \faGithub{ github.com/charlieguo0610}} \: \: \faGlobe{zixinguo.me}
+
+\address{
+  \faPhone\, +1 6473896610 \:\: 
+  \faEnvelope\, zixinguo@andrew.cmu.edu \:\: 
+  \faGithub\, github.com/charlieguo0610 \:\: 
+  \faGlobe\, zixinguo.me
+}
+% \:\: \faLink { https://www.linkedin.com/in/yunrong-liu-kuma/}}
+% \address{\faMapMarker{ Room 2002, Block B, Longxuanhaoting, Futian District, Shenzhen, Guangdong Province, China}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Carnegie Mellon University} \hfill {\em Aug. 2025 – Present} 
+\\{ \textit {Master of Science in Robotics}}  \hfill {Pittsburgh, PA}
+\begin{itemize}
+    \vspace{-0.2cm}\item Advisor: Prof. Deva K. Ramanan
+    \vspace{-0.2cm}\item GPA: 4.20/4.00
+\end{itemize}
+
+{\bf University of Toronto} \hfill {\em Sept. 2020 – Jun. 2025} 
+\\{ \textit {Honours Bachelor of Science}}  \hfill {Toronto, ON}
+\begin{itemize}
+  \vspace{-0.2cm}\item \textbf{Program: } Computer Science Specialist 
+  \vspace{-0.2cm}\item  \href{https://drive.google.com/file/d/12q3Mtp4c7Ep8-_om7Ghy0sE7Sc2XvH9v/view?usp=sharing}{\textbf{GPA: }3.98/4.0 (91.5\%)}
+
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{TECHNICAL SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills: & Python, C/C++, Java, HTML, CSS, JavaScript, Shell, MySQL, LaTeX, R\\
+
+Toolkits: & PyTorch, CUDA, Diffusers, OpenCV, React, Django, Git, Vim, Slurm\\
+
+
+\end{tabular}
+\end{rSection}
+
+
+\begin{rSection}{PUBLICATIONS}
+\textbf{Z. Guo}, J. Zhang, “FastTalker: Jointly Generating Speech and Conversational Gestures from Text,” in \textit{European Conference on Computer Vision Workshop (ECCVW)}, 2024, arXiv: 2409.16404.
+
+D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Yang, “TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling,” in \textit{European Conference on Computer Vision (ECCV)}, 2024, arXiv: 2408.01291.
+
+\textbf{Z. Guo}, R. Yang, “A Channel Attention and Feature Manipulation Network for Facial Expression Recognition,” in \textit{3rd International Conference on Signal Processing and Machine Learning}, 2023 (Oral Presentation), DOI: 10.54254/2755-2721/6/20230751.
+
+% \textbf{Z. Guo}, Y. Bai, W. Zhang, T. Mei, B. Zhou, "A Method on Industrial Defect Detection Using Self-Attention Mechanism and Memory Networks, " CN Patent application no. 202210255817.8. Filed Mar 15, 2022, Under Confidentiality Agreement.
+\end{rSection}
+
+
+\begin{rSection}{EXPERIENCES}
+
+{\bf Center for Autonomous Vehicle Research, Carnegie Mellon University} \hfill {\em Sept. 2025 - Present} 
+\\{\textit{Graduate Student Researcher. Supervisor: Prof. Deva K. Ramanan} \hfill {Pittsburgh, PA}}
+\begin{itemize}
+    \vspace{-0.2cm}\item Proposed a Geometry-Conditioned Video Diffusion method for controllable relighting and long-form temporal consistency.
+\end{itemize}
+
+{\bf Machine Learning and Computational Healthcare Lab, Vector Institute} \hfill {\em Sept. 2024 - Jan. 2025} 
+\\{\textit{Undergraduate Student Researcher. Supervisor: Prof. Rahul G. Krishnan} \hfill {Toronto, ON}}
+
+\begin{itemize} 
+    \vspace{-0.2cm}\item Conducted a literature review on various model architectures, spanning from early designs like LSTM, through transformers, to large language models (LLMs), in the context of medical time series. 
+    \vspace{-0.2cm}\item Developed a codebase and conducted benchmark studies on various time series forecasting models and data imputation methods, applying them to datasets such as MIMIC and HiRID. \vspace{-0.2cm}\item Demonstrated explainability in patient vital sign predictions and experimented with the performance impact of data imputation using LLM as a zero-shot predictor. 
+\end{itemize}
+{\bf Dynamic Graphics Project Lab, University of Toronto} \hfill {\em May 2024 - Nov. 2024} 
+\\{\textit{UTEA Undergraduate Student Researcher. Supervisor: Prof. David Lindell} \hfill {Toronto, ON}}
+\begin{itemize}
+    \vspace{-0.2cm}\item Proposed a novel text-to-image diffusion-based optimization method that learns age-aware component-level concepts given a collection of person-specific images spanning years. 
+    \vspace{-0.2cm}\item Performed comprehensive quantitative analysis and user studies to evaluate multiple applications of the proposed method, such as recontextualization, component-level swapping, age regression, and progression. Demonstrated enhanced age-specific component control in the personalization process over baseline methods. 
+    \vspace{-0.2cm}\item Work resulted in a first-author poster presentation at Applied Research in Action (ARIA) 2024 \footnotemark.
+    % \vspace{-0.2cm}\item Work resulted in a first-author poster presentation at \href{https://drive.google.com/file/d/1GB0fb1Eoej9yhOO4ggx_5lP3GLN39XnX/view?usp=sharing}{Applied Research in Action (ARIA) 2024} and a conference paper submission to CVPR 2025 (under review).
+\end{itemize}
+
+
+
+{\bf Noah's Ark Lab} \hfill {\em May 2023 - May 2024} 
+\\{\textit{Computer Vision Research Intern. Supervisor: Dr. Juwei Lu} \hfill {Toronto, ON}}
+\begin{itemize}
+    \vspace{-0.2cm}\item Developed and implemented a 3D scene editing pipeline using 3D Gaussian Splatting (3DGS) and diffusion models for smart factory modeling as an alternative to the LiDAR-based method. This proof of concept was successfully transitioned to the production department. \vspace{-0.2cm}\item Proposed and initiated a follow-up project on 3D object removal and view-consistent inpainting in 3DGS, which aligns with both research and industry domains. The work resulted in a US patent submission. \vspace{-0.2cm}\item Contributed to a research project on diffusion-based 3D mesh texturing by developing the Attention-Guided Multi-View Sampling module, leading all baseline benchmark studies, and drafting the initial paper. The work resulted in an ECCV 2024 conference paper.
+\end{itemize}
+
+
+{\bf Dynamic Graphics Project Lab, University of Toronto} \hfill {\em Jan. 2023 - May 2023} 
+\\{\textit{Undergraduate Research Assistant. Supervisor: Prof. David Lindell} \hfill {Toronto, ON}}
+\begin{itemize}
+    \vspace{-0.2cm}\item Developed and replicated a diffusion-based model from scratch for 3D-aware neural field generation, evaluating various 3D neural representations, such as SDFs, beyond the occupancy fields outlined in the original work. 
+    \newpage 
+    \vspace{-0.2cm}\item Evaluated the model’s performance by benchmarking it against Chamfer-L1 and Volumetric IoU metrics to analyze the surface geometry and volumetric alignment of the generated 3D shapes. 
+    \vspace{-0.2cm}\item Work ended with a technical report: Evaluating 3D Neural Field Diffusion Model Using Triplanes \footnotemark and served as a baseline for other research projects in the group.
+    % \vspace{-0.2cm}\item Work ended with a conference-level technical report: \href{https://drive.google.com/file/d/1VXK9EWMUM-Mzs3i1IDi4z0Kqh7Iy-uvX/view}{Evaluating 3D Neural Field Diffusion Model Using Triplanes} and served as a baseline for other research projects in the group.
+\end{itemize}
+
+{\bf CV Lab, JD.com} \hfill {\em May 2021 - Sept. 2021} 
+\\{\textit{Computer Vision Research Intern. Supervisor: Dr. Tao Mei} \hfill {Beijing, China}}
+\begin{itemize}
+    \vspace{-0.2cm}\item Proposed a novel self-attention defect detection method integrating a Vision Transformer (ViT) with a memory module for industrial quality inspection. 
+    \vspace{-0.2cm}\item Conducted detailed experiments using the proposed method that achieved state-of-the-art results on the SDNET 2018 dataset using just 50\% of the training data. This work subsequently led to a published patent. 
+    \vspace{-0.2cm}\item Competed in the CVPR 2021 workshop challenge on open-set image classification; identified optimal settings across dozens of combinations to enhance classification accuracy, securing 3rd place on the leaderboard.
+\end{itemize}
+
+\end{rSection}
+
+
+\begin{rSection}{Projects}
+
+{\bf Object Editing with 3D Scene Representation and Rendering} \hfill {\em Jan. 2024 - Apr. 2024} 
+\begin{itemize}
+    \vspace{-0.2cm}\item Adopted the Segment Anything (SAM) on a single reference view for editing region segmentation, propagated the segmentation mask to remaining views via depth warping, and performed 3D semantic mask reconstruction to accurately localize edited regions within the 3D scene.
+    \vspace{-0.2cm}\item Proposed utilizing 2D editing techniques and attention-guided control to achieve smooth and view-consistent 3D editing. The edited images are then utilized to fine-tune the 3D scene, represented by the neural radiance field (NeRF) or 3DGS.
+    % \vspace{-0.2cm}\item Projected 3D points from frustum coordinate to image coordinate
+
+\end{itemize}
+
+{\bf “An Image is Worth One Sentence”: Fast Textual Inversion with Supreme Initialization \footnotemark} \hfill {\em Jan. 2023 - Apr. 2023} 
+% \href{https://github.com/jenci2114/csc413-project}{\bf “An Image is Worth One Sentence”: Fast Textual Inversion with Supreme Initialization} \hfill {\em Jan. 2023 - Apr. 2023} 
+\begin{itemize}
+    \vspace{-0.2cm}\item Improved textual inversion, a state-of-the-art image personalization method, by increasing its convergence speed from 5000 steps to 100 steps.
+    \vspace{-0.2cm}\item Engineered the Image Personalization feature, dynamically customizing images to align with the user's prompt.
+    \vspace{-0.2cm}\item Pioneered the multitoken initialization method and the class/caption initialization method.
+\end{itemize}
+
+{\bf Smart Oilfield } \hfill {\em May 2022 - Aug. 2022} 
+
+\begin{itemize}
+    \vspace{-0.2cm}\item Engaged oil and gas experts to acquire professional knowledge and annotated a large set of surveillance videos captured at the PetroChina Oilfield for anomaly detection. \vspace{-0.2cm}\item Fine-tuned YOLO series detection models on the annotated datasets for abnormal activity recognition at the construction site, such as PPE wearing, smoke detection, and illegal trespassing. \vspace{-0.2cm}\item Demoed and deployed the trained models on the Atlas 500 AI Edge Station and achieved a 30 FPS detection rate on the monitoring platform.
+\end{itemize}
+
+\end{rSection}
+
+
+\begin{rSection}{AWARDS AND HONOURS}
+
+{Graduate Research Assistantship, Robotics Institute, Carnegie Mellon University (Awarded \$42,167 USD)} \hfill {\em 2025 - 2026} 
+
+{University of Toronto Excellence Awards (UTEA) (Awarded \$7500 CAD)} \hfill {\em 2024} 
+
+{Dean’s List Scholar at the University of Toronto} \hfill {\em 2021, 2022, 2023, 2024} 
+
+{Star Intern Certificate \footnotemark for Self-Attention Defect Detection by the VP Dr. Tao Mei of JD.com} \hfill {\em 2021} 
+% {\href{https://drive.google.com/file/d/1Kh5xj82v_ihqysz4ZNyljiYcowwQaKLJ/view}{Star Intern Certificate} for Self-Attention Defect Detection by the VP Dr. Tao Mei of JD.com} \hfill {\em 2021} 
+
+% {\href{https://drive.google.com/file/d/1iDYAeq4svOW1rlZM59sz7bu7gQqT2jW7/view}{3rd Place} in Open-World Image Classification Challenge at CVPR 2021 Workshop} \hfill {\em 2021} 
+{3rd Place \footnotemark in Open-World Image Classification Challenge at CVPR 2021 Workshop} \hfill {\em 2021} 
+
+{President’s Scholar of Excellence Program at the University of Toronto (Awarded \$10000 CAD)} \hfill {\em 2020} 
+
+{Top 2\% in the Senior Level Canadian Computing Competition} \hfill {\em 2020} 
+
+{Top 3\% in the Euclid Contest and Canadian Senior Math Competition} \hfill {\em 2020} 
+
+\end{rSection}
+
+% \theendnotes
+\footnotetext[1]{\url{https://drive.google.com/file/d/1q59ebZQiwBY9UgBKMJEUWeX32UDor3Ja/view?usp=sharing}}
+\footnotetext[2]{\url{https://drive.google.com/file/d/1VXK9EWMUM-Mzs3i1IDi4z0Kqh7Iy-uvX/view}}
+
+\footnotetext[3]{\url{https://github.com/jenci2114/csc413-project}}
+
+\footnotetext[4]{\url{https://drive.google.com/file/d/1Kh5xj82v_ihqysz4ZNyljiYcowwQaKLJ/view?usp=sharing}}
+
+
+\footnotetext[5]{\url{https://drive.google.com/file/d/1iDYAeq4svOW1rlZM59sz7bu7gQqT2jW7/view}}
+
+\end{document}
+
