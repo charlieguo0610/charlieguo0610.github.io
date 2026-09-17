@@ -5,6 +5,7 @@
 % \let\footnote=\endnote
 \usepackage{fontawesome}
 \usepackage{times}
+\usepackage{tabularx}
 \usepackage{hyperref}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
@@ -57,6 +58,7 @@
 \begin{itemize}
     \vspace{-0.2cm}\item Advisor: Prof. Deva K. Ramanan
     \vspace{-0.2cm}\item GPA: 4.20/4.00
+    \vspace{-0.2cm}\item \textbf{Relevant Coursework: } Mobile Robotics, Robot Learning
 \end{itemize}
 
 {\bf University of Toronto} \hfill {\em Sept. 2020 – Jun. 2025} 
@@ -70,17 +72,18 @@
 
 \begin{rSection}{TECHNICAL SKILLS}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Technical Skills: & Python, C/C++, Java, HTML, CSS, JavaScript, Shell, MySQL, LaTeX, R\\
-
-Toolkits: & PyTorch, CUDA, Diffusers, OpenCV, React, Django, Git, Vim, Slurm\\
-
-
-\end{tabular}
+\begin{tabularx}{\linewidth}{ @{} >{\bfseries}l @{\hspace{1.5ex}} >{\raggedright\arraybackslash}X @{} }
+Vision \& Generative Models: & Video Diffusion, Generative Modeling, 3D Reconstruction, NeRF, 3D Gaussian Splatting\\
+Robot Learning: & Reinforcement Learning, Motion Retargeting, Trajectory Tracking, Simulation-based Evaluation\\
+Frameworks \& Tools: & PyTorch, CUDA, Diffusers, OpenCV, MuJoCo, Isaac Lab, Git, Slurm, Vim, React, Django\\
+Programming: & Python, C/C++, Java, Shell, MySQL, JavaScript, HTML, CSS, LaTeX, R\\
+\end{tabularx}
 \end{rSection}
 
 
 \begin{rSection}{PUBLICATIONS}
+\textbf{Z. Guo}, Y. Litman, Y. He, J. Miller, C. Chen, D. Ramanan, “LightCrafter: PBR-Conditioned Video Diffusion Refinement for Controllable and Consistent Relighting,” submitted to \textit{Conference on Neural Information Processing Systems (NeurIPS)}, 2026, arXiv: 2607.08016.
+
 \textbf{Z. Guo}, J. Zhang, “FastTalker: Jointly Generating Speech and Conversational Gestures from Text,” in \textit{European Conference on Computer Vision Workshop (ECCVW)}, 2024, arXiv: 2409.16404.
 
 D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Yang, “TexGen: Text-Guided 3D Texture Generation with Multi-view Sampling and Resampling,” in \textit{European Conference on Computer Vision (ECCV)}, 2024, arXiv: 2408.01291.
@@ -96,7 +99,11 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 {\bf Center for Autonomous Vehicle Research, Carnegie Mellon University} \hfill {\em Sept. 2025 - Present} 
 \\{\textit{Graduate Student Researcher. Supervisor: Prof. Deva K. Ramanan} \hfill {Pittsburgh, PA}}
 \begin{itemize}
-    \vspace{-0.2cm}\item Proposed a Geometry-Conditioned Video Diffusion method for controllable relighting and long-form temporal consistency.
+    \vspace{-0.2cm}\item Proposed LightCrafter, a hybrid video relighting pipeline that reformulates the task as translation of a physically-based rendering (PBR) proxy, baking the target illumination into the proxy for finer lighting control and long-form temporal consistency.
+    \vspace{-0.2cm}\item Post-trained CogVideoX on synthetic video pairs and real-world unpaired videos to recover hard-to-model effects such as global illumination that PBR renders alone fail to reproduce.
+    \vspace{-0.2cm}\item Outperformed prior state-of-the-art methods on real-world relighting benchmarks and contributed a synthetic benchmark, evaluation metrics, and dataset for further analysis.
+    \vspace{-0.2cm}\item Developing a video-conditioned model that predicts G1 humanoid reference trajectories directly from monocular human demonstrations.
+    \vspace{-0.2cm}\item Evaluating predicted trajectories through closed-loop simulation with SONIC, comparing motion-tracking performance against a two-stage GVHMR-to-GMR baseline.
 \end{itemize}
 
 {\bf Machine Learning and Computational Healthcare Lab, Vector Institute} \hfill {\em Sept. 2024 - Jan. 2025} 
@@ -111,7 +118,7 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 \begin{itemize}
     \vspace{-0.2cm}\item Proposed a novel text-to-image diffusion-based optimization method that learns age-aware component-level concepts given a collection of person-specific images spanning years. 
     \vspace{-0.2cm}\item Performed comprehensive quantitative analysis and user studies to evaluate multiple applications of the proposed method, such as recontextualization, component-level swapping, age regression, and progression. Demonstrated enhanced age-specific component control in the personalization process over baseline methods. 
-    \vspace{-0.2cm}\item Work resulted in a first-author poster presentation at Applied Research in Action (ARIA) 2024 \footnotemark.
+    \vspace{-0.2cm}\item Work resulted in a first-author poster presentation at \href{https://drive.google.com/file/d/1q59ebZQiwBY9UgBKMJEUWeX32UDor3Ja/view?usp=sharing}{Applied Research in Action (ARIA) 2024}.
     % \vspace{-0.2cm}\item Work resulted in a first-author poster presentation at \href{https://drive.google.com/file/d/1GB0fb1Eoej9yhOO4ggx_5lP3GLN39XnX/view?usp=sharing}{Applied Research in Action (ARIA) 2024} and a conference paper submission to CVPR 2025 (under review).
 \end{itemize}
 
@@ -128,9 +135,8 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 \\{\textit{Undergraduate Research Assistant. Supervisor: Prof. David Lindell} \hfill {Toronto, ON}}
 \begin{itemize}
     \vspace{-0.2cm}\item Developed and replicated a diffusion-based model from scratch for 3D-aware neural field generation, evaluating various 3D neural representations, such as SDFs, beyond the occupancy fields outlined in the original work. 
-    \newpage 
     \vspace{-0.2cm}\item Evaluated the model’s performance by benchmarking it against Chamfer-L1 and Volumetric IoU metrics to analyze the surface geometry and volumetric alignment of the generated 3D shapes. 
-    \vspace{-0.2cm}\item Work ended with a technical report: Evaluating 3D Neural Field Diffusion Model Using Triplanes \footnotemark and served as a baseline for other research projects in the group.
+    \vspace{-0.2cm}\item Work ended with a technical report: \href{https://drive.google.com/file/d/1VXK9EWMUM-Mzs3i1IDi4z0Kqh7Iy-uvX/view}{Evaluating 3D Neural Field Diffusion Model Using Triplanes} and served as a baseline for other research projects in the group.
     % \vspace{-0.2cm}\item Work ended with a conference-level technical report: \href{https://drive.google.com/file/d/1VXK9EWMUM-Mzs3i1IDi4z0Kqh7Iy-uvX/view}{Evaluating 3D Neural Field Diffusion Model Using Triplanes} and served as a baseline for other research projects in the group.
 \end{itemize}
 
@@ -155,7 +161,7 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 
 \end{itemize}
 
-{\bf “An Image is Worth One Sentence”: Fast Textual Inversion with Supreme Initialization \footnotemark} \hfill {\em Jan. 2023 - Apr. 2023} 
+\href{https://github.com/jenci2114/csc413-project}{\bf “An Image is Worth One Sentence”: Fast Textual Inversion with Supreme Initialization} \hfill {\em Jan. 2023 - Apr. 2023} 
 % \href{https://github.com/jenci2114/csc413-project}{\bf “An Image is Worth One Sentence”: Fast Textual Inversion with Supreme Initialization} \hfill {\em Jan. 2023 - Apr. 2023} 
 \begin{itemize}
     \vspace{-0.2cm}\item Improved textual inversion, a state-of-the-art image personalization method, by increasing its convergence speed from 5000 steps to 100 steps.
@@ -180,11 +186,11 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 
 {Dean’s List Scholar at the University of Toronto} \hfill {\em 2021, 2022, 2023, 2024} 
 
-{Star Intern Certificate \footnotemark for Self-Attention Defect Detection by the VP Dr. Tao Mei of JD.com} \hfill {\em 2021} 
+{\href{https://drive.google.com/file/d/1Kh5xj82v_ihqysz4ZNyljiYcowwQaKLJ/view?usp=sharing}{Star Intern Certificate} for Self-Attention Defect Detection by the VP Dr. Tao Mei of JD.com} \hfill {\em 2021} 
 % {\href{https://drive.google.com/file/d/1Kh5xj82v_ihqysz4ZNyljiYcowwQaKLJ/view}{Star Intern Certificate} for Self-Attention Defect Detection by the VP Dr. Tao Mei of JD.com} \hfill {\em 2021} 
 
 % {\href{https://drive.google.com/file/d/1iDYAeq4svOW1rlZM59sz7bu7gQqT2jW7/view}{3rd Place} in Open-World Image Classification Challenge at CVPR 2021 Workshop} \hfill {\em 2021} 
-{3rd Place \footnotemark in Open-World Image Classification Challenge at CVPR 2021 Workshop} \hfill {\em 2021} 
+{\href{https://drive.google.com/file/d/1iDYAeq4svOW1rlZM59sz7bu7gQqT2jW7/view}{3rd Place} in Open-World Image Classification Challenge at CVPR 2021 Workshop} \hfill {\em 2021} 
 
 {President’s Scholar of Excellence Program at the University of Toronto (Awarded \$10000 CAD)} \hfill {\em 2020} 
 
@@ -193,17 +199,6 @@ D. Huo, \textbf{Z. Guo}, X. Zuo, Z. Shi, J. Lu, P. Dai, S. Xu, L. Cheng, Y.-H. Y
 {Top 3\% in the Euclid Contest and Canadian Senior Math Competition} \hfill {\em 2020} 
 
 \end{rSection}
-
-% \theendnotes
-\footnotetext[1]{\url{https://drive.google.com/file/d/1q59ebZQiwBY9UgBKMJEUWeX32UDor3Ja/view?usp=sharing}}
-\footnotetext[2]{\url{https://drive.google.com/file/d/1VXK9EWMUM-Mzs3i1IDi4z0Kqh7Iy-uvX/view}}
-
-\footnotetext[3]{\url{https://github.com/jenci2114/csc413-project}}
-
-\footnotetext[4]{\url{https://drive.google.com/file/d/1Kh5xj82v_ihqysz4ZNyljiYcowwQaKLJ/view?usp=sharing}}
-
-
-\footnotetext[5]{\url{https://drive.google.com/file/d/1iDYAeq4svOW1rlZM59sz7bu7gQqT2jW7/view}}
 
 \end{document}
 

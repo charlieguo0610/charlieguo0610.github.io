@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I'm a MSR student in the <a href="https://www.ri.cmu.edu/" target="_blank">Robotics Institute</a> at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>. I received my Bachelor's degree in Computer Science from the <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>, where I focused on computer vision and generative artificial intelligence (GenAI).
+I'm a MSR student in the <a href="https://www.ri.cmu.edu/" target="_blank">Robotics Institute</a> at <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, working with Prof. <a href="https://www.cs.cmu.edu/~deva/" target="_blank">Deva Ramanan</a>. I received my Bachelor's degree in Computer Science from the <a href="https://www.utoronto.ca/" target="_blank">University of Toronto</a>, where I focused on computer vision and generative artificial intelligence (GenAI).
+
+My research interest is in bringing video generative models to robotics. Recently, I have been working on humanoid retargeting.
 
 Previously, I had the opportunity to work with Prof. <a href="https://davidlindell.com/" target="_blank">David Lindell</a> on controllable image personalization at the DGP Lab, Prof. <a href="https://www.cs.toronto.edu/~rahulgk/index.html" target="_blank">Rahul G. Krishnan</a> on LLMs for healthcare at the Vector Institute.
 
@@ -18,6 +20,9 @@ Outside of academia, I am passionate about golf and tennis. During the winter mo
 - **Applications in GenAI:** Controllable Visual Generation with Diffusion Models -->
 
 ## News
+- **[Jul. 2026]** <a href="https://arxiv.org/abs/2607.08016" target="_blank">LightCrafter</a> is on arXiv and was submitted to NeurIPS 2026!
+- **[May. 2026]** I started working on humanoid retargeting.
+- **[Sept. 2025]** I joined the Center for Autonomous Vehicle Research at CMU, working with Prof. <a href="https://www.cs.cmu.edu/~deva/" target="_blank">Deva Ramanan</a>.
 - **[Aug. 2025]** I started my Master of Science in Robotics (MSR) at Carnegie Mellon University.
 - **[Nov. 2024]** One paper was submitted to CVPR 2025!
 - **[Nov. 2024]** I was invited to present my work on controllable human image personalization at ARIA 2024!
